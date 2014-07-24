@@ -1,6 +1,6 @@
 {
   "name": "cachemanager",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Manages a cache",
   "main": "lib/cachemanager.js",
   "scripts": {
