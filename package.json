@@ -1,0 +1,30 @@
+{
+  "name": "cachemanager",
+  "version": "0.0.3",
+  "description": "Manages a cache",
+  "main": "lib/cachemanager.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greggman/cachemanager.git"
+  },
+  "keywords": [
+    "cache",
+    "memory"
+  ],
+  "author": "Gregg Tavares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greggman/cachemanager/issues"
+  },
+  "homepage": "https://github.com/greggman/cachemanager",
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
+  },
+  "dependencies": {
+    "debug": "^1.0.1"
+  }
+}
