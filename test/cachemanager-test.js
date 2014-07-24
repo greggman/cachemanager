@@ -95,4 +95,20 @@ describe('CacheManager', function() {
    info.cacheSize.should.equal(0);
  });
 
+ it('#getIds', function() {
+   var cacheManager = new CacheManager();
+   cacheManager.getIds().should.be.empty;
+
+   cacheManager.cache("abc", "123");
+   cacheManager.cache("def", "456");
+
+   cacheManager.getIds().should.containEql("abc");
+   cacheManager.getIds().should.containEql("def");
+
+   cacheManager.uncache("abc");
+
+   cacheManager.getIds().should.not.containEql("abc");
+   cacheManager.getIds().should.containEql("def");
+ });
+
 });
