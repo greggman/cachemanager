@@ -1,6 +1,6 @@
 {
   "name": "cachemanager",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Manages a cache",
   "main": "lib/cachemanager.js",
   "scripts": {
@@ -21,10 +21,10 @@
   },
   "homepage": "https://github.com/greggman/cachemanager",
   "devDependencies": {
-    "mocha": "^1.20.1",
-    "should": "^4.0.4"
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
   },
   "dependencies": {
-    "debug": "^1.0.1"
+    "debug": "^4.1.1"
   }
 }
